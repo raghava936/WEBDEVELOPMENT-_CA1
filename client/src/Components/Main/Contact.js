@@ -5,19 +5,12 @@ const Contact = () => {
     const data = [
         {
             title: "BloodLink related queries, feedback and suggestions", body: [
-                "Center For Development of Advanced Computing",
-                "C-56/1, Anusandhan Bhawan , Sector-62, Noida, Uttar Pardesh-201307",
-                "8527890830",
-                "bloodlink[at]cdac[dot]in"
+                "Cntact no.- 91 6300 236 300 ",
+                "Email - raghavamaddineni936@gmail.com ",
+                
             ]
         },
-        {
-            title: "For Administrative queries", body: [
-                "Blood Cell, National Health Mission",
-                "Ministry of Health & Family Welfare,New Delhi - 110011"
-            ]
-        },
-        { title: "For administrative queries", body: ["Blood Cell, National Health Mission", "Ministry of Health & Family Welfare,New Delhi - 110011"] }
+       
     ];
     return (
         <div className='px-64'><br />
