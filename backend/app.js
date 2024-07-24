@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(
 	cors({
 		origin: [
-			"https://webdevelopment-ca1.onrender.com",
+			"https://webdevelopment-ca1.onrender.com/",
 		],
 		credentials: true,
 	})
