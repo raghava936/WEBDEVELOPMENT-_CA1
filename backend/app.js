@@ -11,14 +11,7 @@ dotenv.config();
 
 app.use(cookieParser());
 app.use(express.json());
-app.use(
-	cors({
-		origin: [
-			"https://webdevelopment-ca1.onrender.com/",
-		],
-		credentials: true,
-	})
-);
+app.use(cors());
 
 
 mongoose.connect("mongodb+srv://anujkurmi199:8pnKtuIs5QW80kJO@cluster0.38bwibw.mongodb.net/Bloodbank", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }, (e) => {
